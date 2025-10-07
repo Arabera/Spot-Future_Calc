@@ -168,7 +168,9 @@ Issues & Feature Requests
 - Include screenshots if applicable
 
 If you want to support the project, you can do so by donating:
+
 BTC: bc1qhsv5y48hhac3fl4esxr8pdqf80dhwlevpfdrnq
+
 ETH: 0x79c876Af01aD160b3B9dff83a1Ce4Cb286CBD526
 
 📌 Legal Information
