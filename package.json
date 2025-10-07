@@ -1,0 +1,26 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "Spot/Futures Calculator on Electron",
+  "main": "main.js",
+  "author": "Arabera",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . CalculatorApp --platform=win32 --arch=x64 --overwrite",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-packager": "^17.1.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.yourcompany.calculator",
+    "productName": "CalculatorApp",
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    }
+  }
+}
